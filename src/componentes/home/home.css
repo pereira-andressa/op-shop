@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  gap: 50px;
+  padding-bottom: 20px;
+  background: black;
+}
+
+.produtos {
+  display: flex;
+  gap: 12px;
+}
+
+.filtros {
+  display: flex;
+  gap: 16px;
+}
+
+.todos-produtos {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+p, h1, h2{
+  color: white;
+}
+
+.mais-vendidos {
+  font-size: 32px;
+  margin-top: -30px;
+}
+
+.nossos-produtos {
+  font-size: 32px;
+}
+

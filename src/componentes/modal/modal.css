@@ -1,0 +1,41 @@
+.modal {
+  display: grid;
+  place-items: center;
+}
+
+.conteudo {
+  background: #211D1D;
+  width: 60%;
+  height: 80%;
+  border-radius: 20px;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.img-modal {
+  width: 40%;
+}
+
+.informacoes-produto {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.spans-produto {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.botoes-produto {
+  display: flex;
+  gap: 10px;
+}

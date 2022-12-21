@@ -1,0 +1,26 @@
+button {
+  background: #DB1001;
+  color: white;
+  border: 2px solid red;
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  trasition: all 0.3s ease;
+}
+
+button:hover {
+  background: transparent;
+}
+
+.ghost {
+  background: transparent;
+}
+
+.ghost:hover {
+  background: #DB1001;
+}
+
+

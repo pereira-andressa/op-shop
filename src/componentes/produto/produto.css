@@ -1,0 +1,34 @@
+.produto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 30%;
+}
+
+.detalhes {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.produto img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.nome-produto {
+  max-width: 50%;
+  font-size: 20px;
+}
+
+.preco-frete{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.p-prete {
+  font-size: 18px;
+}

@@ -1,0 +1,21 @@
+.destaque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.destaque img {
+  width: 260px;
+  height: 300px;
+}
+
+img {
+  border: 2px solid  #DB1001;
+  border-radius: 20px;
+}
+
+.p-destaque {
+  font-size: 24px;
+}

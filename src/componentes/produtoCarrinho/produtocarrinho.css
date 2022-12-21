@@ -1,0 +1,13 @@
+.produto-carrinho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  width: 80%;
+  border-radius: 16px;
+  padding-right: 24px;
+}
+
+.produto-carrinho img {
+  width: 50px;
+}
